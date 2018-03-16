@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TDView.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    TDView *view = [[TDView alloc] initWithFrame:CGRectMake(10, 100, 300, 300)];
+    //    view.backgroundColor = [UIColor redColor];
+    [self.view addSubview:view];
+
 }
 
 

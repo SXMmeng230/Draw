@@ -15,6 +15,9 @@
 		AAECC52D2020675D001443F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECC52C2020675D001443F0 /* main.m */; };
 		AAECC5372020675D001443F0 /* TestDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECC5362020675D001443F0 /* TestDrawTests.m */; };
 		AAECC5422020675D001443F0 /* TestDrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECC5412020675D001443F0 /* TestDrawUITests.m */; };
+		AAECC55120206794001443F0 /* TDSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECC55020206794001443F0 /* TDSubView.m */; };
+		AAECC554202167E8001443F0 /* TDView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECC553202167E8001443F0 /* TDView.m */; };
+		AAECC55720219698001443F0 /* TDSub1View.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECC55620219698001443F0 /* TDSub1View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		AAECC53D2020675D001443F0 /* TestDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAECC5412020675D001443F0 /* TestDrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDrawUITests.m; sourceTree = "<group>"; };
 		AAECC5432020675D001443F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAECC54F20206794001443F0 /* TDSubView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDSubView.h; sourceTree = "<group>"; };
+		AAECC55020206794001443F0 /* TDSubView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDSubView.m; sourceTree = "<group>"; };
+		AAECC552202167E8001443F0 /* TDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDView.h; sourceTree = "<group>"; };
+		AAECC553202167E8001443F0 /* TDView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDView.m; sourceTree = "<group>"; };
+		AAECC55520219698001443F0 /* TDSub1View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDSub1View.h; sourceTree = "<group>"; };
+		AAECC55620219698001443F0 /* TDSub1View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDSub1View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				AAECC51E2020675D001443F0 /* AppDelegate.m */,
 				AAECC5202020675D001443F0 /* ViewController.h */,
 				AAECC5212020675D001443F0 /* ViewController.m */,
+				AAECC552202167E8001443F0 /* TDView.h */,
+				AAECC553202167E8001443F0 /* TDView.m */,
+				AAECC54F20206794001443F0 /* TDSubView.h */,
+				AAECC55020206794001443F0 /* TDSubView.m */,
+				AAECC55520219698001443F0 /* TDSub1View.h */,
+				AAECC55620219698001443F0 /* TDSub1View.m */,
 				AAECC5232020675D001443F0 /* Main.storyboard */,
 				AAECC5262020675D001443F0 /* Assets.xcassets */,
 				AAECC5282020675D001443F0 /* LaunchScreen.storyboard */,
@@ -268,6 +283,9 @@
 				AAECC5222020675D001443F0 /* ViewController.m in Sources */,
 				AAECC52D2020675D001443F0 /* main.m in Sources */,
 				AAECC51F2020675D001443F0 /* AppDelegate.m in Sources */,
+				AAECC55720219698001443F0 /* TDSub1View.m in Sources */,
+				AAECC55120206794001443F0 /* TDSubView.m in Sources */,
+				AAECC554202167E8001443F0 /* TDView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
